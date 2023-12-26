@@ -1,0 +1,15 @@
+django project saves to github 
+
+git init
+
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+
+git add .
+
+git commit -m "Initial commit"
+
+git remote add origin your_repository_url.git
+
+git branch -M main
+
+git push -u origin main
